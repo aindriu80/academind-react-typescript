@@ -35,3 +35,9 @@ person = {
 // person = {
 //   isEmployee: true,
 // }
+
+// Type inference
+
+let course: string | number = 'React - tehe complee guide'
+
+// course = 12341;
