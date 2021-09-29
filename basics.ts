@@ -22,22 +22,26 @@ let hobbies: string[]
 
 hobbies = ['Sports', 'Cooking']
 
-let person: {
+type Person = {
   name: string
   age: number
 }
+
+let person: Person
 
 person = {
   name: 'Aindriú',
   age: 41,
 }
 
-// person = {
-//   isEmployee: true,
+// person ={
+// 	isEmployee:true
 // }
+
+let people: Person[]
 
 // Type inference
 
 let course: string | number = 'React - tehe complee guide'
 
-// course = 12341;
+course = 12341
