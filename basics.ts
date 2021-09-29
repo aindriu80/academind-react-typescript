@@ -45,3 +45,12 @@ let people: Person[]
 let course: string | number = 'React - tehe complee guide'
 
 course = 12341
+
+// Functions & types
+function add(a: number, b: number) {
+  return a + b
+}
+
+function printExample(value: any) {
+  console.log(value)
+}
